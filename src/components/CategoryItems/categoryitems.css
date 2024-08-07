@@ -1,0 +1,83 @@
+.cat-head {
+  font-size: 15px;
+  color: green;
+  text-align: center;
+}
+.cat-ul {
+  padding-left: 0px;
+  overflow-y: auto;
+  height: 67vh;
+  width: 180px;
+  font-family: 'Roboto';
+  background-color: white;
+  align-self: center;
+}
+
+/* Customize scrollbar for WebKit browsers */
+.cat-ul::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+.cat-ul::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+.cat-ul::-webkit-scrollbar-thumb {
+  background-color: green; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Padding around the scrollbar thumb */
+}
+
+.cat-ul::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb when hovered */
+}
+.cat-li {
+  height: 40px;
+  width: 150px;
+  list-style-type: none;
+  margin: 5px 5px;
+}
+.cat-btn::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-btn {
+  border: none;
+  outline: none;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-size: 13px;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+}
+.cat-li:hover {
+  background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 767px) {
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .category {
+    display: none;
+  }
+}
+.clicked {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

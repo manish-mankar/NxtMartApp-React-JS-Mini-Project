@@ -1,0 +1,115 @@
+.li-items {
+  height: 170px;
+  min-width: 140px;
+  max-width: 200px;
+  box-shadow: 0px 0px 1px 0px #000;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: hidden;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  background-color: #fff; /* Ensure background color for better visibility */
+}
+
+.img-size {
+  height: 90px;
+  width: 120px;
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.product-details {
+  display: flex;
+
+  justify-content: space-between;
+}
+.details {
+  display: inline;
+  flex-direction: column;
+}
+.product-name {
+  margin-bottom: 5px;
+  font-size: 10px;
+
+  color: black;
+  font-weight: bold;
+}
+.overflow-name {
+  width: 170px;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.weight {
+  margin-bottom: 4px;
+  font-size: 10px;
+  color: rgb(161, 165, 169);
+}
+.price {
+  margin-bottom: 4px;
+  font-size: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.add-btn {
+  height: 30px;
+  width: 60px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.quantity-container1 {
+  height: 30px;
+  width: 60px;
+  border: 1px solid green;
+  color: rgb(11, 120, 11);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-end;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 5px;
+}
+.btm {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: green;
+  font-size: 13px;
+  padding: 0px;
+}
+.count1 {
+  color: green;
+  font-size: 12px;
+  display: inline;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 767px) {
+  .add-btn {
+    align-self: center;
+  }
+  .quantity-container1 {
+    align-self: center;
+  }
+  .li-items {
+    min-width: 190px;
+    max-width: 200px;
+    padding: 10px;
+    height: 200px;
+  }
+  .img-size {
+    height: 80px;
+    width: 100px;
+  }
+}

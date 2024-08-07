@@ -1,0 +1,32 @@
+.summary-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+}
+.checkout {
+  height: 35px;
+  width: 100px;
+  outline: none;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+.summaary-p {
+  font-size: 13px;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+.price-total {
+  display: inline;
+  font-weight: normal;
+  font-size: 13px;
+  padding-left: 5px;
+}

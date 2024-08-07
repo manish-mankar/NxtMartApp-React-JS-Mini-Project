@@ -1,0 +1,32 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.not-found-img {
+  width: 70%;
+}
+.not-found-head {
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+}
+.not-found-para {
+  font-size: 15px;
+  color: #898282;
+  text-align: center;
+}
+.navigate-btn {
+  height: 35px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: green;
+  font-size: 12px;
+  color: white;
+}

@@ -1,0 +1,85 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.failure-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  /* Optional: Set a background color for better visibility */
+}
+.instr-head {
+  font-size: 10px;
+  font-weight: normal;
+}
+/* Additional CSS to ensure smooth scrolling */
+.items::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.items {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+.failure-img {
+  width: 30%;
+}
+.failure-head {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.failure-para {
+  color: rgb(187, 186, 186);
+  font-size: 15px;
+}
+.failure-btn {
+  height: 40px;
+  width: 100px;
+  background-color: green;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .failure-container {
+    height: 90vh;
+  }
+  .header-sm {
+    display: block;
+  }
+  .header-lg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .header-lg {
+    display: block;
+  }
+  .header-sm {
+    display: none;
+  }
+}
